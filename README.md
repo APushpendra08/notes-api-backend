@@ -16,7 +16,7 @@ NOTE : Deployed on https://notes-app-ipa.herokuapp.com/
 | Method   | URL                                      | Description                              | Required Parameters |
 | -------- | ---------------------------------------- | ---------------------------------------- |---------------------|
 | `GET`    | `/users/signup`                          | Sign-up to NotesApp                      | `username`<br>`password`<br>`email`|
-| `POST`   | `/users/signup`                          | Sign-in to NotesApp                      |`username`<br>`password`<br>`email` |
+| `POST`   | `/users/signin`                          | Sign-in to NotesApp                      |`username`<br>`password`<br>`email` |
 
 #### Notes Endpoints
 | Method   | URL                                      | Description                              | Required Parameters |
